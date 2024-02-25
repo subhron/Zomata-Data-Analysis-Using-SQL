@@ -1,27 +1,31 @@
 # Zomata-Data-Analysis-Using-SQL
 
-Zomato Data Exploration and Analysis with SQL
+Exploring and Analyzing Zomato Data Using SQL
 
-Most of us know that Zomato is an Indian multinational restaurant aggregator and food delivery company. The idea of analysing the Zomato_dataset is to get the overview of what actutally is happening in their business. Zomato Dataset consist of more than 9000 rows with columns such as Restaurants_id, Restaurants_name, City, Location, Cuisines and many more...
+Many are familiar with Zomato, an Indian multinational company specializing in restaurant aggregation and food delivery services. The aim of delving into the Zomato dataset is to gain insights into the company's operations. The dataset encompasses over 9000 rows featuring various columns such as Restaurant ID, Name, City, Location, Cuisines, and more.
 
-While Exploring Data with SQL, I was working on the following things...
+During the exploration of the data using SQL, several tasks were undertaken:
 
-1. Checked all the details of table such column name, data types and constraints
-2. Checked for duplicate values in [RestaurantId] column
-3. Removed unwanted columns from table
-4. Merged 2 differnt tables and added the new column of Country_Name with the help of primary key as [CountryCode] column
-5. Identitfied and corrected the mis-spelled city names
-6. Counted the no.of restaurants by rolling count/moving count using windows functions
-7. Checked min,max,avg data for votes, rating & currency column.
-8. Created new category column for rating
+1. Reviewing table details including column names, data types, and constraints.
+2. Detecting and addressing duplicate values within the RestaurantID column.
+3. Removing unnecessary columns from the dataset.
+4. Consolidating two distinct tables and introducing a new column, Country_Name, utilizing the primary key, CountryCode.
+5. Correcting misspelled city names for accuracy.
+6. Utilizing window functions to calculate rolling counts of restaurants.
+7. Evaluating statistical metrics such as minimum, maximum, and average values for votes, ratings, and currency.
+8. Introducing a new categorical column for ratings.
+   
+Subsequently, the focus shifted towards analyzing the data with SQL, uncovering key insights including:
 
-After Data Exploration with SQL, I started working on Analysing the Data with SQL where I found insights such as...
+1. The majority of data in the Zomato Dataset (90.67%) pertains to restaurants listed in India, followed by the USA (4.45%).
+2. Among 15 countries represented, only two offer online delivery options, with approximately 28.01% of Indian restaurants and 46.67% of UAE restaurants providing this service.
+3. Given the dataset's heavy emphasis on India, efforts were directed towards extracting insights on Indian restaurants.
+4. Notably, Connaught Place in New Delhi boasts the highest number of listed restaurants (122), followed by Rajouri Garden (99) and Shahdara (87).
+5. The favored cuisine in Connaught Place is North Indian Food.
+6. Only 54 out of 122 restaurants in Connaught Place offer table booking services.
+7. Restaurants in Connaught Place with table booking facilities exhibit an average rating of 3.9/5, compared to 3.7/5 for those without such provisions.
+8. Kolkata, India hosts the best moderately priced restaurant meeting criteria such as an average cost for two below 1000, a rating exceeding 4, votes surpassing 4, and offering both table booking and online delivery services, specializing in Indian cuisine. This establishment is named 'India Restaurant' (RestaurantID - 20747).
 
-1. According to this Zomato Dataset, 90.67% of data is related to restaurants listed in India followed by USA(4.45%).
-2. Out of 15 Countries only 2 countries provides Online delivery options to their customers, to be precised only 28.01% of restaurants in India and 46.67% of restaurants in UAE provides online delivery options.
-3. As this dataset contains data most related to India so i worked on gaining insights on Indian Restaurants.
-4. Connaught Place in New Delhi has the most listed restaurants (122) follwed by Rajouri Garden (99) and Shahdara (87)
-5. Most popular cuisines in Connaught Place is North Indian Food.
-6. Out of 122 restaurants in Connaught Place only 54 restaurants provide table booking facility to their customers.
-7. Average Ratings for restaurants with table booking facility is 3.9/5 compared to restaurants without table booking facility is 3.7/5 in Connaught Place,New Delhi.
-8. Best modrately priced restaurants with average cost for two < 1000, rating > 4, votes > 4 and provides both table booking and online delivery options to their customer with indian cuisines is located in Kolkata,India named as 'India Restaurant',(RestaurantID - 20747).
+
+
+
