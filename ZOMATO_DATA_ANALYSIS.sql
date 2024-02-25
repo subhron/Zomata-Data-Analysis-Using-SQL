@@ -1,7 +1,4 @@
---ANALYSIS QUESTIONS
 USE project;
-
-
 SELECT * FROM [dbo].[ZomatoData1]
 
 
